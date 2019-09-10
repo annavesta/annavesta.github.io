@@ -6,369 +6,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,700i,900,900i&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="static/css/styles.min.css"><!--[if lt IE 9]>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Pro|Montserrat:700&amp;display=swap" rel="stylesheet"><!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
   </head>
   <body class="index-page">
     <div class="wrapper">
-      <header>
+      <header class="header">
         <div class="container">
-          <div class="row contact justify-content-end align-items-center"><a class="header__mail" href="">info@it-rules.ru</a><a class="header__phone" href="+7495380-37-34">+7(495)380-37-34</a>
-            <ul class="d-flex">
-              <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-          <div class="row header">
-            <div class="header__menu d-flex">
-              <nav class="nav"><a class="nav-link active" href="#">Решение и результаты</a><a class="nav-link" href="#">С какими работает</a><a class="nav-link" href="#">Системы</a><a class="nav-link" href="#">Почему мы</a><a class="nav-link" href="#">Нам доверяют</a><a class="nav-link" href="#">Что еще</a></nav>
-              <div class="submit">
-                <button type="submit">&#128269;</button>
+          <div class="header__top">
+            <div class="row justify-content-between">
+              <div class="col-lg-2 col-sm-10">
+                <div class="header__top__logo"><img src="static/images/Portland.png"></div>
               </div>
-            </div>
-            <div class="header__feature d-flex">
-              <div class="col-10">
-                <h1 class="header__title">Базы данных ERP CRM 1C</h1>
-                <p class="header__text"> Подбор, Внедрение, Разработка, Обучение, Сопровождение <br>Бесплатное гарантийное обслуживание - 2 года!</p>
-                <button class="btn__one col-lg-4 col-sm-9 btn btn-link" type="button">Заказать &rarr;</button>
-                <button class="btn__two btn btn-link" type="button">Заказать бесплатно техническое задание</button>
-              </div>
-              <div class="col-2"><img src="static/images/foto/фото1.png" alt="img"></div>
-            </div>
-            <div class="header__item d-flex">
               <div class="col-5">
-                <p>
-                  <u>erp</u>- прибыль и ваше свободное время	
-                </p>
-                <p>
-                  <u>crm</u> - новые продажи вашим старым клиентам	
-                </p>
-                <p>
-                  <u>bi</u> - быстрая и точная проверка вашего бизнеса	
-                </p>
+                <div class="dropdown">
+                  <div class="dropdown-labele">Menu</div>
+                  <nav class="dropdown-main">
+                    <ul class="header__nav d-flex">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Devices</a></li>
+                      <li><a href="#">Delivery &#38; Paymant</a></li>
+                      <li><a href="#">Guarante</a></li>
+                      <li><a href="#">About Us</a></li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
-              <div class="col-6">
-                <p>
-                  <u>csm</u> - оперативное исполнение ваших поручений без бумаги	
-                </p>
-                <p>
-                  <u>ит инфраструктура</u> - надежная работа бизнеса и ваше спокойствие 24/7	
-                </p>
+              <div class="col-3">
+                <div class="header__button d-flex">
+                  <div class="header__button__cart">
+                    <ul class="d-flex">
+                      <li> <i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+                      <li>
+                         CART</li>
+                      <li>
+                        <div class="input-group-text">0</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="header__button__btn">
+                    <button>SIGN IN</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </header>
-      <section class="icon">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="card text-center col-lg-2 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/1.png" alt="">
-                <h5 class="card-title">Опыт</h5>
-                <p class="card-text">разработки IT решений более 15 лет</p>
+      <section class="header__main">
+        <div class="header__main__bottom">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-6">
+                <ul class="header__main__bottom__nav d-flex">
+                  <li><a href="#">TOP SALES</a></li>
+                  <li><a href="#">BRAND FOCUS</a></li>
+                  <li><a href="#">HI-TECH</a></li>
+                  <li><a href="#">BEST SELLERS</a></li>
+                  <li><a href="#">PROJECTS</a></li>
+                </ul>
               </div>
-            </div>
-            <div class="card text-center col-lg-2 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/2.png" alt="">
-                <h5 class="card-title">Работа </h5>
-                <p class="card-text">различными поставщиками ПО (более 18)</p>
-              </div>
-            </div>
-            <div class="card text-center col-lg-2 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/3.png" alt="">
-                <h5 class="card-title">Заказчики</h5>
-                <p class="card-text">со штатом более чем 1000 сотрудников</p>
-              </div>
-            </div>
-            <div class="card text-center col-lg-2 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/4.png" alt="">
-                <h5 class="card-title">Отчетность</h5>
-                <p class="card-text">любой сложности а также по стандартам РСБУ и МСФО/GAAP</p>
-              </div>
-            </div>
-            <div class="card text-center col-lg-2 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/5.png" alt="">
-                <h5 class="card-title">Решения</h5>
-                <p class="card-text">работают у 160 довольных клиентов</p>
+              <div class="col-4 d-flex">
+                <div class="header__main__bottom__help">SUPPORT</div>
+                <div class="header__main__bottom__search"><i class="fa fa-search" aria-hidden="true"></i>i'm looking for...	</div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="title__text">
-        <div class="container">
-          <h3>Профессиональное техническое задание-гарантия уменьшения бюджета ИТ проекта до 70% </h3>
-          <u>Бесплатное техническое задание при заключении договора на работы</u>
-        </div>
-      </section>
-      <section class="content__icon">
-        <div class="container">
-          <div class="content__icon__title">
-            <h1>Решения и результаты внедрения</h1>
-            <p>Мы предлагаем, как комплексные решения для компаний, <br> так и готовые решения в конкретных направлениях.</p>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="content__block d-flex justify-content-between">
-                <div class="content__block__feature">
-                  <h2>Продажи</h2>
-                  <h3>Задачи:<span>Увеличение повторных <br> продаж на 30% за полгода!</span></h3>
-                  <h3>Решение:<span>Автоматизация воронки <br> продаж </span></h3><a href="#">Развернуть &#9660;</a>
-                </div>
-                <div class="content__block__feature__icon"><img src="static/images/icon/6.png" alt=""></div>
+        <div class="header__main__content d-flex">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-sm-12 offset-1">
+                <h1 class="header__main__content__title">iPhone 6 32Gb <br> Black</h1>
+                <p class="header__main__content__text">At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
+                <button class="header__main__content__btn">BUY NOW</button>
               </div>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <div class="content__block d-flex justify-content-between">
-                <div class="content__block__feature">
-                  <h2>Поддержка продаж</h2>
-                  <h3>Задачи:<span>Поддержка до 100 <br> клиентов одним менеджером!</span></h3>
-                  <h3>Решение:<span>Система управления <br> взаимоотношениями с клиентом CRM</span></h3><a href="#">Развернуть &#9660;</a>
-                </div>
-                <div class="content__block__feature__icon"><img src="static/images/icon/7.png" alt=""></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <div class="content__block d-flex justify-content-between">
-                <div class="content__block__feature">
-                  <h2>Логистика</h2>
-                  <h3>Задачи:<span>Уменьшение затоваривания <br> складов на 1/4 в течение б мес.!</span></h3>
-                  <h3 id="third">Решение:<span> ABC анализ товарооборота</span></h3><a href="#">Развернуть &#9660;</a>
-                </div>
-                <div class="content__block__feature__icon"><img src="static/images/icon/8.png" alt=""></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <div class="content__block d-flex justify-content-between">
-                <div class="content__block__feature">
-                  <h2>Производство </h2>
-                  <h3>Задачи:<span>Сокращение ФОТ <br> производственных рабочих на 10%</span></h3>
-                  <h3>Решение:<span>Уменьшение <br> переработок до 0 </span></h3><a href="#">Развернуть &#9660;</a>
-                </div>
-                <div class="content__block__feature__icon"><img src="static/images/icon/9.png" alt=""></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <div class="content__block d-flex justify-content-between">
-                <div class="content__block__feature">
-                  <h2>Оказание услуг </h2>
-                  <h3>Задачи:<span>Сокращение срывов сроков <br> по подрядам в два раза за 9 месяцев</span></h3>
-                  <h3>Решение:<span>Система взаимодействия <br> с заказчиками и подрядчиками</span></h3><a href="#">Развернуть &#9660;</a>
-                </div>
-                <div class="content__block__feature__icon"><img src="static/images/icon/10.png" alt=""></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <div class="content__block d-flex justify-content-between">
-                <div class="content__block__feature">
-                  <h2>Персонал</h2>
-                  <h3>Задачи:<span>Повышение индивидуальных <br> KPI сотрудников до 15%</span></h3>
-                  <h3>Решение:<span> Индивидуальны план <br> развития компетенций сотрудника</span></h3><a href="#">Развернуть &#9660;</a>
-                </div>
-                <div class="content__block__feature__icon"><img src="static/images/icon/11.png" alt=""></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <div class="content__block d-flex justify-content-between">
-                <div class="content__block__feature">
-                  <h2>Аналитика </h2>
-                  <h3>Задачи:<span>Повышение качества <br> управленческих решений в разы</span></h3>
-                  <h3>Решение:<span>Персонолизированные <br> KPI для вашего бизнеса</span></h3><a href="#">Развернуть &#9660;</a>
-                </div>
-                <div class="content__block__feature__icon"><img src="static/images/icon/12.png" alt=""></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <div class="content__block d-flex justify-content-between">
-                <div class="content__block__feature">
-                  <h2>Коммуникации </h2>
-                  <h3>Задачи:<span>Повышение скорости <br> согласования документов в 3 раза</span></h3>
-                  <h3>Решение:<span>Автоматизации процессов <br> прохождения документов</span></h3><a href="#">Развернуть &#9660;</a>
-                </div>
-                <div class="content__block__feature__icon"><img src="static/images/icon/13.png" alt=""></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <div class="content__block d-flex justify-content-between">
-                <div class="content__block__feature">
-                  <h2> Инфраструктура </h2>
-                  <h3>Задачи:<span>Снижение затрат на <br> обслуживание ИТ на 20%</span></h3>
-                  <h3>Решение:<span>Система размещения и <br> оценок ИТ заявок HelpDesk</span></h3><a href="#">Развернуть &#9660;</a>
-                </div>
-                <div class="content__block__feature__icon"><img src="static/images/icon/14.png" alt=""></div>
-              </div>
+              <div class="col-3"><img class="header__main__content__ img" src="static/images/Безимени-5.png"></div>
             </div>
           </div>
         </div>
       </section>
-      <section class="content__title">
-        <div class="container">
-          <div class="content__icon__title">
-            <h1>С какими системами мы работаем</h1>
-            <p>Мы работаем со всеми лидерами Российского рынка программного обеспечения. Наши специалисты подберут наилучшую систему для Вашего бизнеса. Так же мы готовы реализовать необходимое решение для Вашей организации в выбранной вами системе.</p>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="container logo">
-          <div class="row">
-            <ul class="d-flex justify-content-between">
-              <li><img src="static/images/logo/logo-oracle (1).png" alt=""></li>
-              <li><img src="static/images/logo/O3T07limsPpa5MSqjmhFA.png" alt=""></li>
-              <li><img src="static/images/logo/lotus_logo.png" alt=""></li>
-              <li><img src="static/images/logo/Apps-Siebel1.png" alt=""></li>
-              <li><img src="static/images/logo/dynamics-crm.png" alt=""></li>
-              <li><img src="static/images/logo/gal.png" alt=""></li>
-              <li><img src="static/images/logo/logo-oracle.png" alt=""></li>
-              <li><img src="static/images/logo/1C_Company_-_Logo_(English_Version).jpg" alt=""></li>
-              <li><img src="static/images/logo/logo-2015.png" alt=""></li>
-              <li><img src="static/images/logo/terrasoft_logo.png" alt=""></li>
-              <li><img src="static/images/logo/SAP_AG.png" alt=""></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section class="content__title">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 content__icon__title">
-              <h1>Почему Вам необходимо обратиться к нам!</h1>
-              <p>Любой бизнес сталкивается с определенным моментом, когда человеческие ресурсы неоправданно <br>увеличивают как финансовые, так и временные затраты на обработку различных данных. Что несет в себе потерю клиентов, прибыли и времени!</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="icon">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="card text-center col-lg-3 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/16.png" alt="">
-                <p class="card-text">собственный успешный опыт развития компании с количеством сотрудников более 1000 человек</p>
-              </div>
-            </div>
-            <div class="card text-center col-lg-3 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/17.png" alt=""> 
-                <p class="card-text">Опыт команды более 15 лет, средний возраст сотрудников 32 года</p>
-              </div>
-            </div>
-            <div class="card text-center col-lg-3 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/18.png" alt="">
-                <p class="card-text">Подберем идеальную систему для Вашего бизнеса используя соотношение бюджета/пожеланий/требований к системе/сроки</p>
-              </div>
-            </div>
-            <div class="card text-center col-lg-3 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/19.png" alt="">
-                <p class="card-text">Мы знаем, что вам потребуется внедрять в будущем!  Подойдем к вопросу с позиции экономии вашего времени, усилий и финансовых затрат!</p>
-              </div>
-            </div>
-            <div class="card text-center col-lg-3 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/20.png" alt="">
-                <p class="card-text">Внедрим, адаптируем, обучим пользоваться Вас и ваших сотрудников</p>
-              </div>
-            </div>
-            <div class="card text-center col-lg-3 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/21.png" alt="">
-                <p class="card-text">Обеспечим любой стандарт отчетности, как и Российский, так и международный!</p>
-              </div>
-            </div>
-            <div class="card text-center col-lg-3 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/22.png" alt="">
-                <p class="card-text">Обеспечим бесплатную гарантийную поддержку в течении 2х лет!</p>
-              </div>
-            </div>
-            <div class="card text-center col-lg-3 col-sm-12 card__icon">
-              <div class="card-body"><img src="static/images/icon/23.png" alt="">
-                <p class="card-text">Бесплатно обновим программное обеспечение в течении 6 месяцев после внедрения! </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="title__text">
-        <div class="container">
-          <u>Мы предложим Вам одни из самых выгодных условий как по срокам, так и по стоимости!</u>
-        </div>
-      </section>
-      <section class="content__title">
-        <div class="container">
-          <div class="content__icon__title">
-            <h1>Этапы работ	</h1>
-          </div>
-        </div>
-      </section>
-      <section class="content__title">
-        <div class="container">
-          <div class="content__icon__title">
-            <h1>Нам доверяют</h1>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="container logo">
-          <div class="row justify-content-center">
-            <ul class="d-flex">
-              <li><img src="static/images/logo2/logo.png" alt=""></li>
-              <li><img src="static/images/logo2/becema.png" alt=""></li>
-              <li><img src="static/images/logo2/logo1.png" alt=""></li>
-              <li><img src="static/images/logo2/logo (1).png" alt=""></li>
-              <li><img src="static/images/logo2/logo-img.png" alt=""></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="container bottom d-flex">
-          <div class="col-9">
-            <h1 class="bottom__title">Еще мы можем предложить</h1>
-            <div class="row bottom__item">
-              <div class="col-lg-6 col-sm-12">
-                <p>
-                  <u> </u><ins>Поддержка 24/7</ins>
-                </p>
-                <p>
-                  <u> </u><ins>Выезд на объект заказчика в течении 3-х часов	</ins>
-                </p>
-                <p>
-                  <u> </u><ins>Мы работаем по всей России</ins>
-                </p>
-                <p>
-                  <u> </u><ins>Полное сопровождение вашей ИТ среды</ins>
-                </p>
-              </div>
-              <div class="col-lg-6 col-sm-12">
-                <p>
-                  <u> </u><ins>Поставка и наладка оборудования</ins>
-                </p>
-                <p>
-                  <u> </u><ins>Минимальные цены среди конкурентов</ins>
-                </p>
-                <p>
-                  <u> </u><ins>Душевный разговор</ins>
-                </p>
-              </div>
-            </div>
-            <button class="btn__one col-lg-4 col-sm-9 btn btn-link" type="button">Заказать &rarr;</button>
-            <button class="btn__two btn btn-link" type="button">Заказать бесплатно техническое задание</button>
-          </div>
-          <div class="col-3"><img src="static/images/foto/фото2.png" alt="img"></div>
-        </div>
-      </section>
-      <footer>
-        <div class="container">
-          <div class="row justify-content-around">
-            <div class="nds">
-              <p>ООО «ВИДЕО ПРАВИЛА» Можайское ш 112А , работаем с учетом НДС 18% </p>
-            </div>
-            <div class="footer__contact"><a class="footer__mail" href="">info@it-rules.ru</a><a class="footer__phone" href="+7495380-37-34">+7(495)380-37-34</a></div>
-          </div>
-        </div>
-      </footer>
     </div>
     <script src="static/js/jquery-3.3.1.min.js"></script>
     <script src="static/js/libs.min.js"></script>
