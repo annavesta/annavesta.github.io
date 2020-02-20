@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header_top">
+            <div class="header_wrapper">
+              <div class="header_logo"><a class="header_logo-link" href="#"><img src="static/images/Anna Otrepeva.png" alt="img"></a></div>
+              <nav class="header_nav">
+                <ul class="header_list">
+                  <li class="header_item"><a class="header_link" href="#">Главная</a></li>
+                  <li class="header_item"><a class="header_link" href="#">О нас</a></li>
+                  <li class="header_item"><a class="header_link" href="#">Контакты</a></li>
+                  <li class="header_item"><a class="header_link" href="#">Отзывы</a></li>
+                </ul>
+              </nav>
+              <button class="header_btn btn btn-primary" type="button" data-toggle="modal" data-target="#exampleModal">
+                 Регистрация</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email"><small class="form-text text-muted" id="emailHelp">We&apos;ll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password">
+                        </div>
+                        <div class="form-group form-check">
+                          <input class="form-check-input" id="exampleCheck1" type="checkbox">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                      <button class="btn btn-primary" type="button">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="intro">
+              <div class="intro_left col-lg-6 col-8 col-sm-8">
+                <h1 class="intro_left_title">Лучшее в мире <br>мобильное приложение </h1>
+                <p class="intro_left_text">Служба Яндекс.Рефераты предназначена для студентов и школьников,<br> дизайнеров и журналистов, создателей научных заявок и отчетов — <br>для всех, кто относится к тексту, как к количеству знаков.</p>
+                <form class="saerch-form col-lg-11" id="form" action="thanks.html">
+                  <input class="form-control" id="input-email" type="text" placeholder="Ваш E-mail">
+                  <button class="form_btn" type="button">Скачать</button>
+                </form>
+              </div>
+              <div class="intro_right col-lg-6"><img src="static/images/telephone.png" alt="img"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="benefits">
+          <div class="container">
+            <div class="row">
+              <div class="benefits_wrap">
+                <div class="benefits_wrap_title col-lg-6">
+                  <h1>Лучшее в мире <br>мобильное приложение </h1>
+                </div>
+                <div class="benefits_wrap_text col-lg-6">
+                  <p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row benefits_card justify-content-between">
+              <div class="benefits_card_icon col-lg-3 col-3">
+                <div class="benefits_card_icon_img">
+                  <h2>18</h2>
+                </div>
+                <div class="benefits_card_icon_title">
+                  <p>дизайнеров</p>
+                </div>
+              </div>
+              <div class="benefits_card_icon col-lg-3 col-3">
+                <div class="benefits_card_icon_img">
+                  <h2>22</h2>
+                </div>
+                <div class="benefits_card_icon_title">
+                  <p>часа работы</p>
+                </div>
+              </div>
+              <div class="benefits_card_icon col-lg-3 col-3">
+                <div class="benefits_card_icon_img">
+                  <h2>65 </h2>
+                </div>
+                <div class="benefits_card_icon_title">
+                  <p>регистраций</p>
+                </div>
+              </div>
+              <div class="benefits_card_icon col-lg-3 col-3">
+                <div class="benefits_card_icon_img">
+                  <h2>128</h2>
+                </div>
+                <div class="benefits_card_icon_title">
+                  <p>новых проектов</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="img">
+          <div class="img_left col-lg-6">
+            <div class="img_left_gora"></div>
+            <div class="img_left_zamok"></div>
+          </div>
+          <div class="img_right col-lg-6"></div>
+        </div>
+        <div class="form">
+          <div class="form_img col-lg-3">
+            <p>123</p>
+          </div>
+          <div class="form_feedback">
+            <form>
+              <h2>Оставьте <span/>отзыв<span/></h2>
+              <div class="input-container col-lg-5 col-8">
+                <input class="form-control" id="input-name" type="text" placeholder="Ваше имя"><i class="fa fa-user icon" aria-hidden="true"></i>
+              </div>
+              <div class="input-container col-lg-5 col-8">
+                <input class="form-control" id="input-email" type="text" placeholder="Ваш E-mail"><i class="fa fa-envelope icon" aria-hidden="true"></i>
+              </div>
+              <div class="input-container col-lg-5 col-8">
+                <input class="form-control" id="input-phone" type="text" placeholder="Ваше телефон"><i class="fa fa-phone icon" aria-hidden="true"></i>
+              </div>
+              <button class="form_btn" type="button">Скачать</button>
+            </form>
+          </div>
+        </div>
+        <div class="maps">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3a1dfa23c7383db934e4257b54fd95eef5481caf55f3b4d412078c202cb436e4&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+      </div>
+      <footer class="footer"></footer>
+    </div>
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
