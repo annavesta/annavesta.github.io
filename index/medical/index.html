@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Medical site</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;display=swap&amp;subset=cyrillic" rel="stylesheet"><!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header_top-line">
+          <div class="container"><a class="logo" href="#">
+              <p class="logo_text"><span>M</span>edical</p></a>
+            <div class="menu">
+              <input class="menu_checkbox" id="checkbox" type="checkbox">
+              <label class="menu_button" for="checkbox"><span class="menu_button-link"></span><span class="menu_button-link"></span><span class="menu_button-link"></span></label>
+              <nav class="header_navigation"><a class="header_navigation-link" href="#">Home                        </a><a class="header_navigation-link" href="aboutas.html">About us</a><a class="header_navigation-link" href="services.html">Services</a><a class="header_navigation-link" href="portfolio.html">Portfolio</a><a class="header_navigation-link" href="blog.html">Blog</a><a class="header_navigation-link" href="contact.html">Contact</a></nav>
+            </div>
+            <button class="header_button" type="button" data-toggle="modal" data-target="#exampleModal">get started</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Email</label>
+                      <input class="form-control" id="inputEmail4" type="email" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Password</label>
+                      <input class="form-control" id="inputPassword4" type="password" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input class="form-control" id="inputAddress" type="text" placeholder="1234 Main St">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input class="form-control" id="inputAddress2" type="text" placeholder="Apartment, studio, or floor">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">City</label>
+                      <input class="form-control" id="inputCity" type="text">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">State</label>
+                      <select class="form-control" id="inputState">
+                        <option selected="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Zip</label>
+                      <input class="form-control" id="inputZip" type="text">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" id="gridCheck" type="checkbox">
+                      <label class="form-check-label" for="gridCheck">Check me out</label>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary" type="submit">Sign in</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header_content">
+          <div class="container">
+            <div class="header_content-inner">
+              <h1 class="header_title">The best doctors <br> in <span>Medicine!</span></h1>
+              <p class="header_subtitle">in the world of modern medicine!</p>
+              <p class="header_content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+              <button class="header_content-button" type="button" data-toggle="modal" data-target="#exampleModal">get started now</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document"></div>
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Email</label>
+                      <input class="form-control" id="inputEmail4" type="email" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Password</label>
+                      <input class="form-control" id="inputPassword4" type="password" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input class="form-control" id="inputAddress" type="text" placeholder="1234 Main St">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input class="form-control" id="inputAddress2" type="text" placeholder="Apartment, studio, or floor">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">City</label>
+                      <input class="form-control" id="inputCity" type="text">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">State</label>
+                      <select class="form-control" id="inputState">
+                        <option selected="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Zip</label>
+                      <input class="form-control" id="inputZip" type="text">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" id="gridCheck" type="checkbox">
+                      <label class="form-check-label" for="gridCheck">Check me out</label>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary" type="submit">Sign in</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="info">
+        <div class="container">
+          <div class="info_inner">
+            <div class="info_text-wrapper">
+              <p class="info_title">WELCOME TO clinic</p>
+              <p class="info_subtitle">Why you should choose us ?</p>
+              <p class="info_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen.</p>
+              <button class="info_button" type="button" data-toggle="modal" data-target="#exampleModal">get started now </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input class="form-control" id="inputEmail4" type="email" placeholder="Email">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input class="form-control" id="inputPassword4" type="password" placeholder="Password">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">Address</label>
+                      <input class="form-control" id="inputAddress" type="text" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress2">Address 2</label>
+                      <input class="form-control" id="inputAddress2" type="text" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input class="form-control" id="inputCity" type="text">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select class="form-control" id="inputState">
+                          <option selected="">Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input class="form-control" id="inputZip" type="text">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" id="gridCheck" type="checkbox">
+                        <label class="form-check-label" for="gridCheck">Check me out</label>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Sign in</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="info_image-wrapper"><img src="static/images/doctor.png" alt="img"></div>
+          </div>
+        </div>
+      </div>
+      <div class="features">
+        <ul class="features_list">
+          <li class="features_item"></li>
+          <li class="features_item">
+            <p class="features_title">features</p>
+            <p class="features_subtitle">Professional surgeons</p>
+            <p class="features_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in. </p>
+          </li>
+          <li class="features_item">
+            <p class="features_title">features</p>
+            <p class="features_subtitle">Professional surgeons</p>
+            <p class="features_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in. </p>
+          </li>
+          <li class="features_item"></li>
+        </ul>
+      </div>
+      <div class="advantages">
+        <div class="container">
+          <ul class="advantages_list">
+            <li class="advantages_item"><img src="static/images/adv1.jpg" alt="img">
+              <p class="advantages_title">Modern Medicines</p>
+              <p class="advantages_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            </li>
+            <li class="advantages_item"><img src="static/images/adv2.jpg" alt="img">
+              <p class="advantages_title">Perfect Personal</p>
+              <p class="advantages_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            </li>
+            <li class="advantages_item"><img src="static/images/adv3.jpg" alt="img">
+              <p class="advantages_title">Health Prevention</p>
+              <p class="advantages_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            </li>
+            <li class="advantages_item"><img src="static/images/adv4.jpg" alt="img">
+              <p class="advantages_title">First Medical Aid</p>
+              <p class="advantages_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            </li>
+            <li class="advantages_item"><img src="static/images/adv5.jpg" alt="img">
+              <p class="advantages_title">Biological Analysis</p>
+              <p class="advantages_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            </li>
+            <li class="advantages_item"><img src="static/images/adv6.jpg" alt="img">
+              <p class="advantages_title">Private Doctor</p>
+              <p class="advantages_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="gellery">
+        <div class="container">
+          <ul class="gellery_list">
+            <li class="gellery_item"><img src="static/images/gelery1.png" alt="img"></li>
+            <li class="gellery_item"><img src="static/images/gelery2.png" alt="img"></li>
+            <li class="gellery_item"><img src="static/images/gelery3.png" alt="img"></li>
+            <li class="gellery_item"><img src="static/images/gelery4.png" alt="img"></li>
+            <li class="gellery_item"><img src="static/images/gelery5.png" alt="img"></li>
+            <li class="gellery_item"><img src="static/images/gelery6.png" alt="img"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="container">
+          <div class="slider_wrapper">
+            <p class="slider_text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+            <div class="center">
+              <div class="slide">
+                <p class="slider_name">JANE GALADRIEL</p>
+                <p class="slider_work">CEO TENGKUREP</p><img src="static/images/user1.png" alt="img">
+              </div>
+              <div class="slide">
+                <p class="slider_name">JANE GALADRIEL</p>
+                <p class="slider_work">CEO TENGKUREP</p><img src="static/images/user2.png" alt="img">
+              </div>
+              <div class="slide">
+                <p class="slider_name">JANE GALADRIEL</p>
+                <p class="slider_work">CEO TENGKUREP</p><img src="static/images/user3.png" alt="img">
+              </div>
+              <div class="slide">
+                <p class="slider_name">JANE GALADRIEL</p>
+                <p class="slider_work">CEO TENGKUREP</p><img src="static/images/user4.png" alt="img">
+              </div>
+              <div class="slide">
+                <p class="slider_name">JANE GALADRIEL</p>
+                <p class="slider_work">CEO TENGKUREP</p><img src="static/images/user5.png" alt="img">
+              </div>
+              <div class="slide">
+                <p class="slider_name">JANE GALADRIEL</p>
+                <p class="slider_work">CEO TENGKUREP</p><img src="static/images/user5.png" alt="img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <div class="container">
+          <p class="form_title">Contact us</p>
+          <form class="form_wrapper" action="thanks.html">
+            <input class="form_input" id="input-name" type="text" required placeholder="Name">
+            <input class="form_input" id="input-email" type="text" required placeholder="E-mail">
+            <input class="form_input" id="input-subject" type="text" placeholder="Subject">
+            <textarea class="form_textarea" placeholder="Your Message"></textarea>
+            <button class="form_submit-button" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer_inner">
+            <div class="footer_info"><a class="footer_logo" href="#">Medical</a>
+              <p class="footer_info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+              <p class="footer_info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+            </div>
+            <div class="footer_filial">
+              <p class="footer_filial-title">New York</p>
+              <p class="footer_filial-address">709 Honey Creek Dr. <br> New York<br> NY 10028</p><a class="footer_filial-phone" href="tel:18882992000">1-888-299-2000</a>
+              <p><a class="footer_filial-email" href="mailto:yourmail@ompany.com">yourmail@ompany.com</a></p>
+            </div>
+            <div class="footer_filial mr100">
+              <p class="footer_filial-title">London</p>
+              <p class="footer_filial-address">4851 Willow Greene Drive <br> Montgomery<br> AL 36109</p><a class="footer_filial-phone" href="tel:18882992000">1-888-299-2000</a>
+              <p><a class="footer_filial-email" href="mailto:yourmail@ompany.com">yourmail@ompany.com</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      $('.center').slick({
+      	centerMode: true,
+        centerPadding: '80px',
+        slidesToShow: 4,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
+</html>
