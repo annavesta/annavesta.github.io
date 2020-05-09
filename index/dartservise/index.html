@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&amp;family=Raleway:ital,wght@0,200;0,400;0,600;0,800;0,900;1,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="header">
+            <div class="header_top"><a class="header_top-logo" href="#"><img src="static/images/logo.png" alt="logo"></a>
+              <nav class="header_top-nav"><a class="header_top-link" href="home.html">Home</a><a class="header_top-link" href="service.html">Service</a><a class="header_top-link" href="#">Extension</a><a class="header_top-link" href="pricing.html">Pricing</a><a class="header_top-link" href="#">Help</a></nav>
+              <button class="header_top-button" type="button" data-toggle="modal" data-target="#exampleModal">sign up</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input class="form-control" id="inputEmail4" type="email" placeholder="Email">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">Password</label>
+                            <input class="form-control" id="inputPassword4" type="password" placeholder="Password">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress">Address</label>
+                          <input class="form-control" id="inputAddress" type="text" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress2">Address 2</label>
+                          <input class="form-control" id="inputAddress2" type="text" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input class="form-control" id="inputCity" type="text">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select class="form-control" id="inputState">
+                              <option selected="">Choose...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input class="form-control" id="inputZip" type="text">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" id="gridCheck" type="checkbox">
+                            <label class="form-check-label" for="gridCheck">Check me out</label>
+                          </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Sign in</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="header_bottom">
+              <div class="header_bottom-text">
+                <h1>lorem Ipsum Dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc</p>
+                <div class="header_bottom-btn">
+                  <button class="btn" id="btn_one" type="button" data-toggle="modal" data-target="#exampleModal">Buy now</button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <form>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input class="form-control" id="inputEmail4" type="email" placeholder="Email">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input class="form-control" id="inputPassword4" type="password" placeholder="Password">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputAddress">Address</label>
+                              <input class="form-control" id="inputAddress" type="text" placeholder="1234 Main St">
+                            </div>
+                            <div class="form-group">
+                              <label for="inputAddress2">Address 2</label>
+                              <input class="form-control" id="inputAddress2" type="text" placeholder="Apartment, studio, or floor">
+                            </div>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input class="form-control" id="inputCity" type="text">
+                              </div>
+                              <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select class="form-control" id="inputState">
+                                  <option selected="">Choose...</option>
+                                  <option>...</option>
+                                </select>
+                              </div>
+                              <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input class="form-control" id="inputZip" type="text">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="form-check">
+                                <input class="form-check-input" id="gridCheck" type="checkbox">
+                                <label class="form-check-label" for="gridCheck">Check me out</label>
+                              </div>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Sign in</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn" id="btn_two" type="button" data-toggle="modal" data-target="#exampleModal">Try for free</button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <form>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input class="form-control" id="inputEmail4" type="email" placeholder="Email">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input class="form-control" id="inputPassword4" type="password" placeholder="Password">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputAddress">Address</label>
+                              <input class="form-control" id="inputAddress" type="text" placeholder="1234 Main St">
+                            </div>
+                            <div class="form-group">
+                              <label for="inputAddress2">Address 2</label>
+                              <input class="form-control" id="inputAddress2" type="text" placeholder="Apartment, studio, or floor">
+                            </div>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input class="form-control" id="inputCity" type="text">
+                              </div>
+                              <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select class="form-control" id="inputState">
+                                  <option selected="">Choose...</option>
+                                  <option>...</option>
+                                </select>
+                              </div>
+                              <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input class="form-control" id="inputZip" type="text">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="form-check">
+                                <input class="form-check-input" id="gridCheck" type="checkbox">
+                                <label class="form-check-label" for="gridCheck">Check me out</label>
+                              </div>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Sign in</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header_bottom-video">
+                <iframe src="https://www.youtube.com/embed/3a8mp2I6Hy4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content"></div>
+      <div class="advantage">
+        <div class="container">
+          <div class="advantage_info title">
+            <h1 class="advantage_info-title info-title">Easy & Useful</h1>
+            <p class="advantage_info-subtitle info-subtitle">Project Management Tool</p>
+            <p class="advantage_info-text info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+          </div>
+          <div class="advantage_block">
+            <div class="row row-cols-1 row-cols-md-3 justify-content-between">
+              <div class="col-12 col-md-4">
+                <div class="advantage_block_card card"><img class="advantage_block-icon card-img-top" src="static/images/title-icon1.png" alt="icon">
+                  <div class="card-body">
+                    <h5 class="advantage_block-title card-title">Title Goes Here</h5>
+                    <p class="advantage_block-text card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card advantage_block_card"><img class="advantage_block-icon card-img-top" src="static/images/title-icon2.png" alt="icon">
+                  <div class="card-body">
+                    <h5 class="advantage_block-title card-title">Title Goes Here</h5>
+                    <p class="advantage_block-text card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card advantage_block_card"><img class="advantage_block-icon card-img-top" src="static/images/title-icon3.png" alt="icon">
+                  <div class="card-body">
+                    <h5 class="advantage_block-title card-title">Title Goes Here</h5>
+                    <p class="advantage_block-text card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantage_btn">
+            <button class="btn advantage_btn-info" type="button" data-toggle="modal" data-target="#exampleModal">Get started</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Email</label>
+                          <input class="form-control" id="inputEmail4" type="email" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4">Password</label>
+                          <input class="form-control" id="inputPassword4" type="password" placeholder="Password">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input class="form-control" id="inputAddress" type="text" placeholder="1234 Main St">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress2">Address 2</label>
+                        <input class="form-control" id="inputAddress2" type="text" placeholder="Apartment, studio, or floor">
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">City</label>
+                          <input class="form-control" id="inputCity" type="text">
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="inputState">State</label>
+                          <select class="form-control" id="inputState">
+                            <option selected="">Choose...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                          <label for="inputZip">Zip</label>
+                          <input class="form-control" id="inputZip" type="text">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="form-check">
+                          <input class="form-check-input" id="gridCheck" type="checkbox">
+                          <label class="form-check-label" for="gridCheck">Check me out</label>
+                        </div>
+                      </div>
+                      <button class="btn btn-primary" type="submit">Sign in</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="advantage_counts">
+          <div class="row">
+            <div class="col-6 col-lg-3 advantage_counts-col advantage_counts-one"><img src="static/images/icon1.png" alt="icon">
+              <p>12000+ <br> Business</p>
+            </div>
+            <div class="col-6 col-lg-3 advantage_counts-col advantage_counts-two"><img src="static/images/icon2.png" alt="icon">
+              <p>60000+ <br> Downloads</p>
+            </div>
+            <div class="col-6 col-lg-3 advantage_counts-col advantage_counts-three"><img src="static/images/icon3.png" alt="icon">
+              <p>30000+ <br> Free Installs</p>
+            </div>
+            <div class="col-6 col-lg-3 advantage_counts-col advantage_counts-four"><img src="static/images/icon4.png" alt="icon">
+              <p>40000+ <br> Pro Users
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <div class="container">
+          <div class="services_info title">
+            <h1 class="info-title">Services</h1>
+            <p class="info-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+          </div>
+          <div class="services_block">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-line-chart" aria-hidden="true"></i>
+                      <p>Statistics</p>
+                      <div class="brop" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></div>
+                    </button>
+                  </h2>
+                </div>
+                <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <div class="card" style="box-shadow: none;">
+                      <div class="row no-gutters">
+                        <div class="col-md-4 services_card"><img class="card-img" src="static/images/statistic.png" alt="icon" style="width: 250px;"></div>
+                        <div class="col-md-8">
+                          <div class="card-body card-body-text" style="padding: 0;">
+                            <p class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            <p class="card-text">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-envelope" aria-hidden="true"></i>
+                      <p>inbox</p>
+                      <div class="brop" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne"></div>
+                    </button>
+                  </h2>
+                </div>
+                <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.</div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-users" aria-hidden="true"></i>
+                      <p>team</p>
+                      <div class="brop" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne"></div>
+                    </button>
+                  </h2>
+                </div>
+                <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.</div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-cog" aria-hidden="true"></i>
+                      <p>settings</p>
+                      <div class="brop" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne"></div>
+                    </button>
+                  </h2>
+                </div>
+                <div class="collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.</div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><i class="fa fa-wifi" aria-hidden="true"></i>
+                      <p>feed</p>
+                      <div class="brop" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne"></div>
+                    </button>
+                  </h2>
+                </div>
+                <div class="collapse" id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionExample">
+                  <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="test">
+        <div class="container">
+          <div class="test_block">
+            <div class="test_block-info">
+              <h1 class="info-title test_block-title">What our customers have to say about us.</h1>
+              <p class="info-text test_block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <div class="test_btn">
+                <button class="btn test_btn-info" type="button" data-toggle="modal" data-target="#exampleModal">Get started</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4">Email</label>
+                              <input class="form-control" id="inputEmail4" type="email" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4">Password</label>
+                              <input class="form-control" id="inputPassword4" type="password" placeholder="Password">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input class="form-control" id="inputAddress" type="text" placeholder="1234 Main St">
+                          </div>
+                          <div class="form-group">
+                            <label for="inputAddress2">Address 2</label>
+                            <input class="form-control" id="inputAddress2" type="text" placeholder="Apartment, studio, or floor">
+                          </div>
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputCity">City</label>
+                              <input class="form-control" id="inputCity" type="text">
+                            </div>
+                            <div class="form-group col-md-4">
+                              <label for="inputState">State</label>
+                              <select class="form-control" id="inputState">
+                                <option selected="">Choose...</option>
+                                <option>...</option>
+                              </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                              <label for="inputZip">Zip</label>
+                              <input class="form-control" id="inputZip" type="text">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="form-check">
+                              <input class="form-check-input" id="gridCheck" type="checkbox">
+                              <label class="form-check-label" for="gridCheck">Check me out</label>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="submit">Sign in</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="test_block-slider">
+              <div class="slick-vertical">
+                <div class="slider"><img src="static/images/avat1.png" alt="avatar">
+                  <div class="test_slider-text">
+                    <p class="slide-title">John Doe</p>
+                    <p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                  </div>
+                </div>
+                <div class="slider"><img src="static/images/avat2.png" alt="avatar">
+                  <div class="test_slider-text">
+                    <p class="slide-title">Khalessi</p>
+                    <p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                  </div>
+                </div>
+                <div class="slider"><img src="static/images/avat1.png" alt="avatar">
+                  <div class="test_slider-text">
+                    <p class="slide-title">John Doe</p>
+                    <p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                  </div>
+                </div>
+                <div class="slider"><img src="static/images/avat2.png" alt="avatar">
+                  <div class="test_slider-text">
+                    <p class="slide-title">Khalessi</p>
+                    <p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                  </div>
+                </div>
+                <div class="slider"><img src="static/images/avat1.png" alt="avatar">
+                  <div class="test_slider-text">
+                    <p class="slide-title">John Doe</p>
+                    <p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                  </div>
+                </div>
+                <div class="slider"><img src="static/images/avat2.png" alt="avatar">
+                  <div class="test_slider-text">
+                    <p class="slide-title">Khalessi</p>
+                    <p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="team">
+        <div class="container">
+          <div class="team_info title">
+            <h1 class="info-title">Our Team</h1>
+            <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+          </div>
+          <div class="team_tab">
+            <div class="team_block">
+              <div class="team_avatar tab" data-target="tab-content-1"><img class="team_block-img" src="static/images/team-avatar-1.png" alt="avatar"></div>
+              <div class="team_avatar tab" data-target="tab-content-2"><img class="team_block-img" src="static/images/team-avatar-2.png" alt="avatar"></div>
+              <div class="team_avatar tab" data-target="tab-content-3"><img class="team_block-img" src="static/images/team-avatar-3.png" alt="avatar"></div>
+            </div>
+            <div class="tab-contents">
+              <div class="tab-content tab-content-1">
+                <h1 class="info-title team_feedback-title">Terry Hehher</h1>
+                <p class="info-text team_feedback-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+                <ul class="team_feedback-icon">
+                  <li> <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="https://linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                  <li><a href="https://dribbble.com/"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.behance.net/"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="tab-contents">
+              <div class="tab-content tab-content-2">
+                <h1 class="info-title team_feedback-title">Sophie Terher</h1>
+                <p class="info-text team_feedback-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+                <ul class="team_feedback-icon">
+                  <li> <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="https://linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                  <li><a href="https://dribbble.com/"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.behance.net/"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="tab-contents">
+              <div class="tab-content tab-content-3">
+                <h1 class="info-title team_feedback-title">Terry Hehher</h1>
+                <p class="info-text team_feedback-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+                <ul class="team_feedback-icon">
+                  <li> <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="https://linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                  <li><a href="https://dribbble.com/"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.behance.net/"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="container">
+          <div class="contact_info title">
+            <h1 class="info-title">Contact Us</h1>
+            <p class="info-text contact_info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-5 contact_form col-sm-12 col-md-8">
+              <form class="needs-validation" novalidate="">
+                <div class="form-row">
+                  <div class="col-md-6 mb-3 col-sm-6">
+                    <input class="form-control" id="validationTooltip03" type="text" placeholder="First Name" required="">
+                    <div class="invalid-tooltip">Please provide a valid name.</div>
+                  </div>
+                  <div class="col-md-6 mb-3 col-sm-6">
+                    <input class="form-control" id="validationTooltip04" type="text" placeholder="Last Name" required="">
+                    <div class="invalid-tooltip">Please provide a valid name.</div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3 col-sm-6">
+                    <input class="form-control" id="validationTooltip03" type="text" placeholder="Email" required="">
+                    <div class="invalid-tooltip">Please provide a valid email.</div>
+                  </div>
+                  <div class="col-md-6 mb-3 col-sm-6">
+                    <input class="form-control" id="validationTooltip04" type="text" placeholder="Phone" required="">
+                    <div class="invalid-tooltip">Please provide a valid phone.</div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-12">
+                    <textarea class="form-control form_textarea" id="validationTextarea" placeholder="Message" required=""></textarea>
+                  </div>
+                </div>
+                <div class="form_top d-flex justify-content-between align-items-center">
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" id="invalidCheck2" type="checkbox" value="" required="">
+                      <label class="form-check-label" for="invalidCheck2">subscribe to the newsletter</label>
+                    </div>
+                  </div>
+                  <button class="btn contact_btn-form" type="button" data-toggle="modal" data-target="#example">Send</button>
+                  <div class="modal fade" id="example" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">thank you for your request</div>
+                        <div class="modal-footer">
+                          <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                          <button class="btn btn-primary" type="button">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer_top"><a class="footer_top-logo" href="#"><img src="static/images/logo.png" alt="logo"></a>
+            <nav class="footer_top-nav"><a class="footer_top-link" href="#">Home</a><a class="footer_top-link" href="#">Service</a><a class="footer_top-link" href="#">Extension</a><a class="footer_top-link" href="#">Pricing</a><a class="footer_top-link" href="#">Help</a></nav>
+          </div>
+          <div class="footer_buttom">
+            <ul class="footer_buttom-nav">
+              <li> <a href="#">Privecy Policy</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+            <div class="footer_buttom-social">
+              <ul class="footer_buttom-icon">
+                <li><a href="https://www.facebook.com/"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://dribbble.com/"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.behance.net/"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
