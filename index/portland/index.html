@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Portland</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&amp;family=Montserrat:wght@400;600;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="header row align-items-center">
+            <div class="header_logo col-lg-2 col-sm-12"><a href="#"><img src="static/images/logo.png"></a></div><a class="menu-link" href="#menu"><span></span></a>
+            <div class="header_menu menu col-xl-5 col-lg-6 col-sm-12 d-flex justify-content-between"><a class="header_menu-link" href="#">Home</a><a class="header_menu-link" href="#">Devices</a><a class="header_menu-link" href="#">Delivery & Payment</a><a class="header_menu-link" href="#">Guarantee</a><a class="header_menu-link" href="#">About Us</a></div>
+            <div class="header_main col-lg-3 col-sm-12 d-flex">
+              <div class="header_main-card d-flex align-items-center"><i class="fa fa-shopping-cart header_main-card-item" aria-hidden="true"></i>
+                <p class="header_main-card-item">cart</p><span class="header_main-card-item cart" id="final_price"></span>
+              </div>
+              <div class="header_main-btn">
+                <button class="btn">sign in</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="container">
+          <div class="main row d-flex align-items-center justify-content-between">
+            <div class="main_menu col-lg-5 col-8 col-sm-12"><a class="main_menu-link" href="#">Top Sales</a><a class="main_menu-link" href="#">Brand Focus</a><a class="main_menu-link" href="#">Hi-tech</a><a class="main_menu-link" href="#">Best Sellers</a><a class="main_menu-link" href="#">Projects</a></div>
+            <div class="main_botton d-flex col-lg-3 align-items-center">
+              <botton class="main_botton-btn">support</botton>
+              <form class="main_form">
+                <button class="main_form-btn" type="submit"></button>
+                <input class="main_form-searh" type="text" placeholder="I’m looking for ...">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="aside">
+          <div class="container">
+            <div class="aside_content row">
+              <div class="contant_info col-lg-5 col-md-6 offset-lg-1 col-sm-6">
+                <div class="contant_info-title">iPhone 6 32Gb Black</div>
+                <div class="contant_info-text">At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</div>
+                <button class="contant_info-btn" type="button" data-toggle="modal" data-target="#exampleModal">Buy Now</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Расчет стоимости</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      </div>
+                      <div class="modal-body">
+                        <section id="main">
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <div class="calc">
+                                <label for="">Выберите модель</label><br>
+                                <select class="form-control" id="model" name="model">
+                                  <option data-model-ration="100" value="6">6</option>
+                                  <option data-model-ration="200" value="7">7</option>
+                                  <option data-model-ration="300" value="8">8</option>
+                                </select><br>
+                                <label for="">Выберите цвет</label><br>
+                                <select class="form-control" id="card_color" name="card_color">
+                                  <option data-color="1" value="pink">pink</option>
+                                  <option data-color="2" value="gold">gold</option>
+                                  <option data-color="3" value="black">black</option>
+                                </select><br>
+                                <label for="">Выберите Gb</label>
+                                <select class="form-control" id="memory" name="">
+                                  <option data-memory-ration="10" value="16Gb">16Gb</option>
+                                  <option data-memory-ration="20" value="32Gb">32Gb</option>
+                                  <option data-memory-ration="30" value="64Gb">64Gb</option>
+                                </select><br>
+                                <h4>Цена</h4>
+                                <p class="price"><span id="final_price">0</span> руб.</p>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="card_images text-center"><img id="pink" src="static/images/pinc.jpg" alt=""><img id="gold" src="static/images/gold.jpg" alt=""><img id="black" src="static/images/black.jpg" alt=""></div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                        <button class="btn btn-primary" type="button">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contant_img offset-lg-1 offset-xl-1"><img src="static/images/phone.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer"></footer>
+    </div>
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+      	$('.calc select').change(function(){
+      		$color_format = $('select#card_color option:selected').attr('data-color'); 
+      		$final_model = $("select#model option:selected").attr('data-model-ration');
+      		$final_memory = $('select#memory option:selected').attr('data-memory-ration');
+      		$price = parseInt($final_model) + parseInt($final_memory)
+      		console.log($price);
+      		
+      		if ($color_format == 1) {
+      			$('.card_images img').hide();    
+      			$('#pink').show("slow");
+      		}
+      		if ($color_format == 2) {
+      			$('.card_images img').hide();    
+      			$('#gold').show("slow");
+      		}
+      		if ($color_format == 3) {
+      			$('.card_images img').hide();    
+      			$('#black').show("slow");
+      		}
+      		$('span#final_price').text($price);
+      	})
+      })
+    </script>
+  </body>
+</html>
